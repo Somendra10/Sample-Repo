@@ -188,29 +188,7 @@ public class Class1 {
 	    driver.get("https://www.lambdatest.com/"); */
 		
 		
-		//How to Handel Dynamic Tabs 
 		
-		 // Open the initial page
-        driver.get("https://example.com");
-
-        // Click on a link that opens a new tab
-        driver.findElement(By.linkText("Open new tab")).click();
-
-        // Wait for the new tab to open
-        List<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-
-        // Switch to the new tab
-        driver.switchTo().window(tabs.get(1));
-      
-
-        // Perform actions on the new tab
-        // ...
-
-        // Close the new tab
-        driver.close();
-
-        // Switch back to the original tab
-        driver.switchTo().window(tabs.get(0));
 	
 	
 	// How to take screenshot of failed scenario
