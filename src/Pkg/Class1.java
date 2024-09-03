@@ -44,9 +44,9 @@ public class Class1 {
 
 		//System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe\\");
 		driver = new ChromeDriver();
-		 driver.get("https://www.saucedemo.com/");
+		// driver.get("https://www.saucedemo.com/");
 		 driver.manage().window().maximize();
-	//	driver.get("https://www.globalsqa.com/demo-site/datepicker/#DropDown%20DatePicker");
+	driver.get("https://www.globalsqa.com/demo-site/datepicker/#DropDown%20DatePicker");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 	
